@@ -9,6 +9,7 @@ import Hero from "./components/Hero/Hero";
 //main
 import Main from "./components/Main";
 import Steps from "./components/Steps/Steps";
+import Services from "./components/Services/Services";
 
 function App() {
   return <Page>
@@ -19,6 +20,7 @@ function App() {
 
     <Main>
       <Steps/>
+      <Services/>
     </Main>
   </Page>;
 }
